@@ -443,6 +443,12 @@ body {
   line-height: 30px;
   color: rgba(255, 255, 255, 0.918);
 }
+.social-icon i{
+  color: var(--secondary);
+}
+.social-icon i:hover{
+  color: var(--primary);
+}
 /* Contact Form Section End */
 
 /* Risponsive Section Start */
@@ -454,7 +460,7 @@ body {
     margin-top: -90px;
   }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1199px) {
   .nav-buy-btn {
     display: none;
   }
